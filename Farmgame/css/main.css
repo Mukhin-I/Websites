@@ -1,0 +1,302 @@
+body{
+    background: #FDFCEF;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+    line-height: 1.4em;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+p{
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.header{
+
+
+}
+
+.logo{
+    padding-top: 60px;
+
+
+}
+
+h1{
+    width: 465px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.desc{
+    font-weight: 500;
+    font-size: 18px;
+    width: 423px;
+    line-height: 1.37em;
+    padding: 30px 0 30px 0;
+
+}
+
+
+.btn{
+    background: #FF6861;
+    color: white;
+    text-decoration: none;
+    border-radius: 100px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 22px 70px;
+    display: block;
+    width: 227px;
+   
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 82px;
+}
+
+.aboutgame{
+    padding-top: 120px;
+}
+
+.featuresh{
+    width: 512px;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.maingamewrap{
+    display: flex;
+    align-items: center;
+    gap: 34px;
+
+}
+
+.feature-title{
+    margin-bottom: 11px;
+}
+
+.features-container{
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    width: 720px;
+    margin: 70px auto;
+
+
+}
+
+.action-wrap{
+    background: linear-gradient(102deg, #FFF6DF 17.38%, #FFDFDE 81.25%);
+    border-radius: 60px;
+    margin-top: 120px;
+}
+
+.second-offer{
+    width: 475px;
+}
+
+.action-title{
+    width: 475px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.action-text{
+    width: 371px;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.action-wrap{
+    display: flex;
+    align-items: center;
+    padding: 76px 125px 75px 122px;
+}
+
+.credits{
+    font-weight: 500;
+    font-size: 15px;
+    padding: 120px 0 120px 0;
+    text-align: center;
+}
+
+
+/* Responsive */
+
+/* Large: 992px - 1199px */
+@media (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+/* Medium: 768px - 991px */
+@media (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+    .action-wrap{
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 101px 144px;
+
+    }
+    .action-text{
+        margin: 0 auto;
+    }
+    .btn{
+        margin: 0 auto;
+    }
+    .logo{
+     display: block;
+     margin: 0 auto;
+    }
+    .wrapper{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .second-offer{
+        margin-top: 101px
+    }
+
+
+}
+
+/* Small: 576px - 767px */
+@media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+    .featurewrap p{
+        width: 320px;
+        
+    }
+    
+    .maingamewrap{
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .features-container{
+        width: 540px;
+        text-align: center;
+    }
+    .offer{
+        margin-top: 51px;
+    }
+    .logo{
+        padding-top: 60px;
+        margin-bottom: 50px;
+    }
+    .aboutgame{
+        padding-top: 90px;
+    }
+    .featurewrap p{
+        margin: 0 auto;
+    }
+
+   
+
+    
+}
+
+/* Extra small: 0px (320px) - 575px */
+@media (max-width: 575px) {
+    .container {
+        padding: 0 15px;
+    }
+    .image{
+        width: 100%;
+    }
+    .offer h1{
+        width: auto;
+        font-size: 50px;
+    }
+    .desc{
+        width: 100%;
+        font-size: 18px;
+    }
+    .featuresh{
+        width: 100%;
+        font-size: 40px;
+       
+    }
+    .feature-title{
+        width: 100%;
+        font-size: 30px;
+    }
+    
+    .features-container{
+        width: 100%;
+        gap: 50px;
+        
+    }
+    .featurewrap p{
+        width: 300px;
+        font-size: 18px;
+    }
+    
+    .action-title{
+        width: 280px;
+        font-size: 40px;
+        margin: 0 auto;
+    }
+    .action-wrap{
+        align-items: center;
+        padding: 70px 20px;
+    }
+    .action-text{
+        width: 280px;
+        font-size: 18px;
+    }
+    .footer{
+        padding-top: 90px;
+        padding-bottom: 90px
+
+    }
+    .credits{
+        padding: 0
+    }
+
+   
+}
+
+
+
