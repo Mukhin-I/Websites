@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/icon.svg">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Рыбка на котике</title>
+    <style>
+        #cat {
+            position: relative;
+            cursor: pointer;
+        }
+
+        h1{
+            margin-top: 120px;
+        }
+
+    </style>
+  </head>
+  <body>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="nav-wrap">
+                <a href="index.html"><img src="img/logo.svg" class="logo"></a>
+                <ul class="menu">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="index.html">Применение ИИ</a></li>
+                    <li><a href="examples.html">Примеры ИИ</a></li>
+                    <li><a href="gallery.html">Галерея</a></li>
+                </ul>
+                <a href="contacts.html" class="contacts">Контакты</a>
+                <img src="img/burger.png" class="burger">
+            </div>
+            <div class="burger-menu">
+                <ul class="menu-b">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="index.html">Применение ИИ</a></li>
+                    <li><a href="examples.html">Примеры ИИ</a></li>
+                    <li><a href="gallery.html">Галерея</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="cat-container">
+                <h1>Рыбка на котике</h1>
+                <p>Нажмите на котика, чтобы поставить рыбку на него</p>
+                <div class="cat-wrap">
+                    <img id="cat" src="img/cat.png" alt="Котик">
+                    <img id="fish" src="img/fish.png" alt="Рыбка">
+                </div>
+            </div>
+    <script>
+        const cat = document.getElementById("cat");
+        const fish = document.getElementById("fish");
+
+        // Функция, которая перемещает рыбку на котика при клике на котика
+        cat.addEventListener("click", function() {
+        fish.style.position = "absolute";
+        fish.style.left = cat.offsetLeft + "px";
+        fish.style.top = cat.offsetTop + "px";
+        cat.src = "img/cat_meow.png"; // Изменяем картинку котика на картинку, на которой он мяукает
+        alert("Мяу");
+        });
+
+    </script>
+        </div>
+    </header>
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <a class="up-btn" href="#">Вверх</a>
+            <div class="footer-content">
+                <ul class="menu-f">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="index.html">Применение ИИ</a></li>
+                    <li><a href="examples.html">Примеры ИИ</a></li>
+                    <li><a href="gallery.html">Галерея</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+                <div class="putin-quote">
+                    <h5>Владимир Путин</h5>
+                    <p>“Искусственный интеллект — это будущее не только России, это будущее всего человечества. Здесь колоссальные возможности и трудно прогнозируемые сегодня угрозы”</p>
+                </div>
+                <a href="http://lstu2.ucoz.ru/" target="_blank"><img src="img/logo-f.svg"></a>
+            </div>
+            <div class="credits">
+                <p><a href="https://openai.com/blog/chatgpt" target="_blank">Источники информации</a></p>
+                <p>Фото: <a href="https://unsplash.com/" target="_blank">Unsplash</a></p>
+                <p>©2023 Мухин Илья</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/else.js"></script>
+  </body>
+</html>
