@@ -1,0 +1,183 @@
+.header-test{
+    background-color: #C4E3CB;
+}
+
+.test-cont-wrap{
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.to-test{
+    width: 350px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 157.9%;
+    color: #000000;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.to-test:hover{
+    color: #8AAE92;
+}
+
+.wwii{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.28);
+    padding-bottom: 43px;
+}
+
+.mem-dates{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.28);
+    padding-bottom: 49px;
+    margin-top: 45px;
+}
+
+.wwi{
+    margin-top: 37px;
+}
+
+.tests-list{
+    display: flex;
+    flex-direction: column;
+    margin-left: 125px;
+}
+
+.test-desc{
+    margin-top: 50px;
+}
+
+.test-desc p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 157.9%;
+    color: #000000;
+}
+
+.test-desc h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 157.9%;
+    color: #000000;
+    width: 415px;
+    margin-top: 20px;
+}
+
+.footer-test{
+    margin-top: 0;
+}
+
+/* Responsive */
+
+/* Large: 992px - 1199px */
+@media (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+
+}
+
+/* Medium: 768px - 991px */
+@media (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+
+
+
+}
+
+/* Small: 576px - 767px */
+@media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .menu-wrap{
+        display: none;
+    }
+    
+    .nav{
+        justify-content: space-between;
+    }
+
+    .menu-f{
+        flex-direction: column;
+    }
+
+    .menu-f-wrap{
+        margin: 0 auto;
+        width: 150px;
+    }
+
+    .footer hr{
+        width: 149px;
+    }
+
+    .credits{
+        flex-direction: column;
+    }
+
+    .credits p{
+        width: 149px;
+        margin: 0 auto;
+    }
+
+    .credits a{
+        margin-top: 33px;
+        margin-left: 37px;
+    }
+
+    .logo-f{
+        width: 160%;
+        margin-left: 8px;
+    }
+
+    .test-cont-wrap{
+        flex-direction: column;
+    }
+
+    .tests-list{
+        text-align: center;
+        margin: 50px;
+    }
+
+    .test-desc{
+        text-align: center;
+    }
+
+    .test-desc h1{
+        margin: 20px auto;
+    }
+
+
+   
+
+    
+}
+
+/* Extra small: 0px (320px) - 575px */
+@media (max-width: 575px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .test-cont-wrap img{
+        width: 100%;
+    }
+
+    .test-desc h1{
+        width: 100%;
+    }
+
+    .credits a{
+        margin-left: 137px;
+    }
+
+    
+
+   
+}
