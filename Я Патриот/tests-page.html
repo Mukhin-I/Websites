@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/icon.svg">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/test-page.css">
+    <title>Я Патриот Проверь знания</title>
+</head>
+<body>
+    <header class="header header-test" id="header">
+        <div class="container">
+            <div class="nav">
+                <a href="index.html">
+                    <img src="img/logo.png">
+                </a>
+                <div class="menu-wrap">
+                    <ul class="menu">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="facts.html">Факты</a></li>
+                        <li><a href="dates.html">События и даты</a></li>
+                        <li><a href="tests-page.html">Проверь знания</a></li>
+                    </ul>
+                </div>
+                <img src="img/burger.png" class="burger">
+            </div>
+            <div class="burger-menu">
+                <ul class="menu-b">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="facts.html">Факты</a></li>
+                    <li><a href="dates.html">События и даты</a></li>
+                    <li><a href="tests-page.html">Проверь знания</a></li>
+                </ul>
+            </div>
+            <div class="test-cont-wrap">
+                <img src="img/battle.png">
+                <div class="tests-list">
+                    <a href="test-wwii.html" target="_blank" class="to-test wwii">Тест по событиям<br>ВОв</a>
+                    <a href="test-mem-dates.html" target="_blank" class="to-test mem-dates">Тест по<br>памятным<br>военным датам</a>
+                    <a href="test-wwi.html" target="_blank" class="to-test wwi">Тест по ПМВ</a>
+                </div>
+            </div>
+            <div class="test-desc">
+                <p>Проверь знания</p>
+                <h1>А ты ответишь на все вопросы?</h1>
+            </div>
+        </div>
+    </header>
+    <footer class="footer footer-test" id="footer">
+        <div class="container">
+            <a href="index.html"><img src="img/logo-f.png" class="logo-f"></a>
+            <div class="menu-f-wrap">
+                <ul class="menu-f">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="facts.html">Факты</a></li>
+                    <li><a href="dates.html">События и даты</a></li>
+                    <li><a href="tests-page.html">Проверь знания</a></li>
+                </ul>
+            </div>
+            <hr>
+            <div class="credits">
+                <p>Я Патриот ©2023</p>
+                <a href="#"><img src="img/up.svg"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+         const burgerBtn = document.querySelector('.burger');
+        const burgerMenu = document.querySelector('.burger-menu');
+
+        burgerBtn.addEventListener('click',()=>{
+            burgerMenu.classList.toggle('active-b');
+        });
+    </script>
+</body>
+</html>
