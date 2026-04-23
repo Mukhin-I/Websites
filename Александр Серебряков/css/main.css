@@ -1,0 +1,821 @@
+html{
+	scroll-behavior: smooth;
+}
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+}
+
+p{
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.header{
+	background: url('../img/back.png') no-repeat center top / cover;
+}
+
+.container{
+	max-width: 1110px;
+	margin: 0 auto;
+}
+
+.logo{
+	
+}
+
+header a{
+	text-decoration: none;
+	color: black;
+}
+
+.menu li{
+	list-style: none;
+}
+
+.menu li a{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	letter-spacing: 0.05em;
+}
+
+.menu{
+	display: flex;
+	gap: 70px;
+}
+
+.nav-wrap{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 60px;
+}
+
+.menu li a:hover{
+	font-weight: 700;
+	transition: 0.3s;
+}
+
+.offer-title{
+	width: 472px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 62px;
+	letter-spacing: 0.15em;
+}
+
+span{
+	color: rgba(75, 122, 241, 0.67);
+}
+
+.offer-wrapper{
+	margin-top: 80px;
+}
+
+.offer{
+	padding-top: 39px;
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+
+.offer-text{
+	width: 540px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 154.4%;
+	letter-spacing: 0.15em;
+
+}
+
+.song-name{
+	text-transform: uppercase;
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	margin-left: 30px;
+}
+
+.pr-title{
+	width: auto;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 154.4%;
+	letter-spacing: 0.15em;
+}
+
+.pr-song{
+	width: auto;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 154.4%;
+	letter-spacing: 0.15em;
+}
+
+.last-song{
+	display: flex;
+	align-items: center;
+	margin-top: 62px;
+}
+
+.btn{
+	display: block;
+	width: 60px;
+	height: 60px;
+	background: #8EAFFF;
+    border-radius: 100px;
+    margin-left: 30px;
+}
+
+.btn:hover{
+	background: #f1c24b;
+    transition: 0.3s;
+}
+
+.btn:active{
+	background: #efb72b;
+}
+
+.phones{
+	padding: 14px 15px;
+}
+
+.header-wrapper{
+	display: flex;
+	align-items: center;
+}
+
+.collage{
+	margin-left: 125px;
+}
+
+.services{
+	padding-top: 93px;
+}
+
+.sh2{
+	width: auto;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 39px;
+	letter-spacing: 0.05em;
+
+}
+
+.h2-hr{
+	border: 2px solid #000;
+	color: black;
+	background-color: #000;
+	margin-top: 48px;
+}
+
+.service{
+	margin-top: 78px;
+}
+
+.service-title{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0.05em;
+	color: #4B7AF1;
+}
+
+.t-hr{
+	width: 160px;
+	border: 1px solid #4B7AF1;
+	background-color: #4B7AF1;
+	margin-top: 11px;
+}
+
+.service-text{
+	width: 470px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 0.1em;
+	margin-top: 36px;
+}
+
+.service-wrap{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.service-img{
+	margin-top: 56px;
+}
+
+.end-service{
+	margin-top: 56px;
+}
+
+.benefits{
+	padding-top: 120px;
+}
+
+.benefit-title{
+	width: 331px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0.05em;
+}
+
+.benefit-text{
+	width: 274px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 0.05em;
+}
+
+.benefit{
+	margin-top: 90px;
+	display: flex;
+	flex-direction: column;
+	gap: 19px;
+}
+
+.b-img{
+	width: 65px;
+    height: 65px;
+}
+
+.benefit-wrapper{
+	display: flex;
+	align-items: center;
+	gap: 51px;
+}
+
+.works{
+	padding-top: 120px;
+}
+
+.mp3-title{
+	width: 261px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0.05em;
+
+}
+
+.mp3{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.mp3-part1{
+	display: flex;
+	flex-direction: column;
+	gap: 108px;
+}
+
+.mp3-part2{
+	display: flex;
+	flex-direction: column;
+	gap: 108px;
+}
+
+.mp3-wrapper{
+	display: flex;
+	align-items: center;
+	gap: 22px;
+	margin-top: 90px;
+}
+
+.music-works{
+	background: url('../img/mp3-bg.png') no-repeat center bottom;
+}
+
+.allsongs{
+	width: 309px;
+	height: 73px;
+	background: #4B7AF1;
+	border-radius: 20px;
+	margin-top: 110px;
+}
+
+.allsongs:hover{
+		background: #f1c24b;
+	    transition: 0.3s;
+}
+
+.allsongs:active{
+	background: #efb72b;
+}
+
+.songs-btn{
+	text-decoration: none;
+	color: white;
+}
+
+.btn-text{
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 39px;
+	letter-spacing: 0.05em;
+	text-align: center;
+	padding-top: 17px;
+}
+
+.videos-title{
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 39px;
+	letter-spacing: 0.05em;
+	margin-top: 121px;
+}
+
+video{
+	margin-top: 120px;
+	width: 100%;
+}
+
+.allvideos{
+	width: 309px;
+	height: 73px;
+	background: #4B7AF1;
+	border-radius: 20px;
+	margin-top: 110px;
+}
+
+.videos-btn{
+	text-decoration: none;
+	color: white;
+}
+
+.allvideos:hover{
+		background: #f1c24b;
+	    transition: 0.3s;
+
+}
+
+.allvideos:active{
+	background: #efb72b;
+}
+
+.feedback{
+	padding-top: 120px;
+}
+
+.link{
+	display: flex;
+	align-items: center;
+	gap: 14px;
+}
+
+.link a{
+	text-decoration: none;
+	color: black;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: 0.05em;
+	transition: 0.3s ease;
+}
+
+.links-wrapper{
+	display: flex;
+	flex-direction: column;
+	gap: 71px;
+}
+
+.comment-title{
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: 0.05em;
+}
+
+.c-text{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0.05em;
+	width: 327px;
+	margin-top: 47px;
+}
+
+.comment{
+	display: flex;
+	align-items: center;
+	gap: 19px;
+	margin-left: 77px;
+}
+
+.feedback-right{
+	display: flex;
+	flex-direction: column;
+	gap: 183px;
+}
+
+.poster{
+	width: 629px;
+	height: 177px;
+	transition: 0.3s ease;
+	border-radius: 20px;
+}
+
+.poster:hover{
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), -8px 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+.main-feedback-wrap{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 93px;
+}
+
+.credits{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 16px;
+	letter-spacing: 0.05em;
+	margin-top: 65px;
+	margin-bottom: 65px;
+}
+
+.link a:hover{
+	color: #4B7AF1;
+}
+
+.footer{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+
+
+/* Responsive */
+
+/* Large: 992px - 1199px */
+@media (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .header{
+    	width: 100%;
+    }
+
+    .header-wrapper{
+    	flex-direction: column-reverse;
+    	margin-top: 80px
+    }
+
+    .offer{
+    	margin: 0 auto;
+    }
+
+    .offer-title{
+    	 text-align: center;
+    }
+
+    .offer-text{
+    	 text-align: center;
+    }
+
+    .last-song{
+    	margin: 62px auto;
+    }
+
+    .collage{
+    	margin: 0 auto;
+    }
+
+    .menu{
+    	gap:55px;
+    }
+
+    .logo{
+    	width: 390px;
+    }
+
+    .services{
+    	width: 100%;
+    }
+
+    .sh2{
+    	text-align: center;
+    }
+
+    .benefits{
+    	width: 100%;
+    }
+
+    .benefit-title{
+    	font-size: 17px;
+    }
+
+    .benefit-text{
+    	font-size: 14px;
+    	width: 200px
+    }
+
+    .mp3{
+    	flex-direction: column;
+    }
+
+    .mp3-wrapper{
+    	gap: 75px;
+        margin: 90px auto;
+
+    }
+
+    .works{
+    	width: 100%;
+    }
+
+    .songs-btn{
+    	display: block;
+    	margin: 0 auto;
+    	width: 309px;
+    }
+
+    .videos-title{
+    	text-align: center;
+    	width: 100%;
+    }
+
+    .videos-btn{
+    	width: 309px;
+    	display: block;
+    	margin: 0 auto;
+    }
+
+    .poster{
+    	width: 555px;
+    	height: 177px;
+    }
+
+    .credits{
+    	margin-bottom: 25px
+    }
+
+    .mp3-part2{
+    	margin-left: 260px
+    }
+
+    .benefits{
+    	width: 100%;
+    }
+
+    .works{
+    	width: 100%;
+    }
+
+    .services{
+    	width: 100%;
+    }
+
+    .nav-wrap{
+    	width: 100%;
+    }
+
+    .header-wrapper{
+    	width: 100%;
+    }
+
+    .feedback{
+    	width: 100%;
+    }
+}
+
+/* Medium: 768px - 991px */
+@media (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .nav{
+    	display: none;
+    }
+
+    .logo{
+    	margin: auto;
+    }
+
+    .service-img{
+    	width: 200px;
+    }
+    
+    .service-title{
+    	font-size: 18px;
+
+    }
+
+    .service-text{
+    	font-size: 14px;
+    }
+
+    .benefit-wrapper{
+    	flex-direction: column;
+    }
+
+    .mp3-part2{
+    	display: none;
+    }
+
+    .mp3-wrapper{
+    	flex-direction: column;
+    }
+
+    .link a{
+    	font-size: 18px;
+    	width: 206px;
+    }
+
+    .main-feedback-wrap{
+    	flex-direction: column-reverse;
+    	gap: 100px;
+    }
+
+    .credits{
+    	text-align: center;
+    }
+
+
+}
+
+/* Small: 576px - 767px */
+@media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+    
+    .collage{
+    	width: 100%;
+    }
+
+    .last-song{
+    	text-align: center;
+    }
+
+    .service-wrap{
+    	flex-direction: column;
+
+    }
+
+    .service{
+    	text-align: center;
+
+    }
+
+    .t-hr{
+    	margin: 11px auto;
+    }
+
+    .comment {
+    	margin: o auto;
+    	gap: 23px;
+
+    }
+
+    .poster{
+    	width: 100%;
+    }
+
+    .footer a{
+    	margin-top: 36px
+    }
+
+     .music-works{
+    	background: url('../img/mp3-bg2.png') no-repeat center bottom;
+    }
+    
+
+   
+
+    
+}
+
+/* Extra small: 0px (320px) - 575px */
+@media (max-width: 575px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .logo{
+    	width: 293px;
+    }
+
+    .offer-title{
+    	margin: auto;
+    	width: 232px;
+    	font-size: 30px;
+    }
+
+    .offer-text{
+    	width: 277px;
+    	font-size: 13px;
+    	margin: auto;
+    }
+
+    .last-song{
+    	display: none;
+    }
+
+    .services{
+    	padding: 0;
+    }
+
+    .service-text{
+    	width: 100%;
+    }
+
+    .b-img{
+    	margin: 0 auto;
+
+    }
+
+    .benefit-text{
+    	padding-left: 44px;
+    	text-align: center;
+    	width: 311px;
+    }
+
+    .benefit-wrapper{
+    	text-align: center;
+    }
+
+    .poster{
+    	display: none;
+    }
+
+    .comment{
+    	text-align: center;
+    	flex-direction: column;
+    }
+
+    .c-text{
+    	width: 249px;
+    }
+
+    .comment-title{
+    	width: 300px;
+    	padding-right: 57px;
+    }
+
+    .comment-img{
+    	padding-right: 51px;
+    }
+
+    .credits{
+    	text-align: center;
+    }
+
+    .footer a{
+    	margin-top: 36px
+    }
+
+    .music-works{
+    	background: url('../img/mp3-bg2.png') no-repeat center bottom;
+    }
+    
+
+   
+}
+
+
+
+
+
+
