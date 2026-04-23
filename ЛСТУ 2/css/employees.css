@@ -1,0 +1,212 @@
+.emp-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 120px;
+}
+
+.emp-row{
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+    gap: 33px;
+}
+
+.employee-card{
+    background-color: #fff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), -4px 4px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+    padding: 28px 25.5px 28px 25.5px;
+    height: 453px;
+}
+
+.email-e{
+    display: block;
+    width: 76px;
+    background: #DBF2FF;
+    border-radius: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #295AB9;
+    padding: 2px 12px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.email-e:hover{
+    background-color: #C0E8FF;
+}
+
+.phone-e{
+    display: block;
+    width: 97px;
+    background: #EDE9FE;
+    border-radius: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #5B21B6;
+    padding: 2px 12px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.phone-e:hover{
+    background-color: #d6cdfd;
+}
+
+.contact-top{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0 62px;
+}
+
+.avatar-e{
+    margin: 20px 110.5px 0 110.5px;
+}
+
+.name-e{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #111827;
+    margin-top: 20px;
+}
+
+.position{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #979797;
+    margin: 23px;
+}
+
+.exp{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #111827;
+    margin: 20px 56.5px 0 72.5px;
+}
+
+.emp-full-inf{
+    display: block;
+    width: 151px;
+    background: #267EB9;
+    border-radius: 26px;
+    padding: 12px 22px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none;
+    margin: 32px 32px 0 73px;
+    transition: 0.3s ease;
+}
+
+.emp-full-inf:hover{
+    background-color: #0E6DAC;
+}
+
+.text-all{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.text-head{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.text-primary{
+    width: 166px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.text-russian{
+    width: 172px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.text-history{
+    width: 164px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.text-maths{
+    width: 250px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.emp-selector ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-top: 60px;
+}
+
+.emp-selector ul li{
+    list-style: none;
+}
+
+.emp-selector ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.hide{
+    opacity: 1;
+    animation-name: a1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    display: none;
+}
+
+@keyframes a1{
+    to{
+        opacity: 0;
+        min-height: 0;
+        min-width: 0;
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+}

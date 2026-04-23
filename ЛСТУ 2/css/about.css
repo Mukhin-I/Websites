@@ -1,0 +1,227 @@
+.school-inf{
+    margin-top: 120px;
+}
+
+.school-inf img{
+    margin: 85px  0 0 80px;
+}
+
+.inf-cont h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    text-align: center;
+}
+
+.inf-text{
+    text-align: center;
+    width: 837px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 167.4%;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin: 50px auto;
+}
+
+.inf-text2{
+    margin-top: 40px;
+}
+
+.contact-content h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.video-wrap{
+    margin-top: 90px;
+}
+
+.video-wrap video{
+    width: 1143px;
+    border-radius: 15px;
+}
+
+.video-preview{
+    position: absolute;
+    border-radius: 15px;
+}
+
+.pause{
+    position: absolute;
+    z-index: 2;
+    left: 713px;
+    top: 2109px;
+    cursor: pointer;
+}
+
+.video-preview.hidden-preview{
+    display: none;
+}
+
+.pause.hidden-preview{
+    display: none;
+}
+
+.inf-state h6{
+    max-width: 248px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.inf-state h6:last-child{
+    margin-top: 13px;
+}
+
+.inf-state{
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+
+.inf-state img{
+    width: 65px;
+}
+
+.information-wrap{
+    display: flex;
+    align-items: center;
+    gap: 147px;
+    margin-top: 90px;
+}
+
+.location-inf{
+    margin-left: 67px;
+}
+
+.whours-inf{
+    margin-left: 46px;
+}
+
+.phone-inf{
+    margin-left: 37px;
+}
+
+.email-inf{
+    margin-left: 76px;
+}
+
+.whours-desc{
+    width: 153px;
+}
+
+.phone-desc{
+    width: 138px;
+}
+
+.faqs-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.faq{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.faq:first-child{
+    border-top: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+.question{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.question h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.answer p{
+    border-left: 2px solid #267EB9;
+    padding-left: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #000000;
+    margin-top: 55px;
+    margin-left: 59px;
+}
+
+.answer-a{
+    display: block;
+    width: 143px;
+    padding: 9px 21px;
+    text-decoration: none;
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 59px;
+    margin-top: 42px;
+    background-color: #267EB9;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.answer-a:hover{
+    background-color: #236FA3;
+}
+
+.answer{
+    display: none;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+}
+
+.faq.active-ans .answer{
+    display: block;
+}
+
+.faq.active-ans img{
+    transform: rotate(45deg);
+}
+
+.question img{
+    transition: transform .5s ease-in;
+}
+
+.to-inf{
+    text-decoration: none;
+    color: #52B8FD;
+    display: flex;
+    flex-direction: column;
+    margin-left: 59px;
+    margin-top: 55px;
+}
+
+.to-inf:hover{
+    text-decoration: underline;
+}
+
+.inf-last{
+    margin-top: 5px;
+}

@@ -1,0 +1,142 @@
+.emp-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 120px;
+}
+
+.main-inf-emp{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), -4px 4px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+    padding: 28px 41px 36px 36px;
+    margin-top: 120px;
+}
+
+.emp-inf h6{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #111827;
+}
+
+.emp-age{
+    margin-top: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #111827;
+}
+
+.emp-position{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #111827;
+    margin-top: 4px;
+}
+
+.emp-inf{
+    margin-left: 16px;
+}
+
+.icon-maininf{
+    display: flex;
+    align-items: flex-start; 
+}
+
+.education-contact{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.emp-edu{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #111827;
+    width: 498px;
+    padding-left: 87px;
+}
+
+.emp-contact{
+    text-decoration: none;
+    display: block;
+    width: 139px;;
+    padding: 12px 22px;
+    background: #267EB9;
+    border-radius: 26px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    margin-left: auto;
+    transition: 0.3s ease;
+}
+
+.emp-contact:hover{
+    background-color: #0E6DAC;
+}
+
+.first-block-inf{
+    background-color: #fff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), -4px 4px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 44px 78px 48px 36px;
+    margin-top: 40px;
+    width: 817px;
+}
+
+.first-block-inf h6{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #111827;
+}
+
+.first-block-inf p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #111827;
+    margin-top: 20px;
+}
+
+.second-block-inf{
+    background-color: #fff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), -4px 4px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 44px 78px 48px 36px;
+    margin-top: 40px;
+    width: 817px;
+}
+
+.second-block-inf p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #111827;
+    margin-top: 20px;
+}
+
+.avatar-big{
+    position: fixed;
+    top: 49px;
+    left: 1111px;
+    visibility: hidden;
+}
+
+.avatar-big.shown{
+   visibility: visible;
+}
