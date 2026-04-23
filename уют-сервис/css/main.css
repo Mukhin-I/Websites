@@ -1,0 +1,387 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Jost', sans-serif;
+}
+
+.container{
+    max-width: 1499px;
+    margin: 0 auto;
+}
+
+.nav{
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0.2em;
+    color: #000;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.login{
+    display: block;
+    text-decoration: none;
+    width: 231px;
+    background: #5E92F0;
+    border-radius: 10px;
+    padding: 16px 11px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.2em;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.login:hover{
+    background-color: #4882EC;
+}
+
+.offer{
+    margin-top: 120px;
+}
+
+.offer h1{
+    text-align: center;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 46px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.offer p{
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 60px;
+}
+
+.offer img{
+    display: block;
+    margin-top: 90px;
+    width: 100%;
+}
+
+.blog{
+    background: rgba(240, 188, 94, 0.15);
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.section-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 46px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.blog-content-wrap{
+    padding-top: 60px;
+}
+
+.posts-wrap{
+    width: 840px;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.post{
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 50px 40px 49px 35px;
+}
+
+.post-content{
+    margin-left: 55px;
+}
+
+.date-who h6{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.2em;
+    color: #F0BC5E;
+}
+
+.date-who p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.2em;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.post-content h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.2em;
+    color: #000000;
+    width: 401px;
+    margin-top: 30px;
+}
+
+.action-author{
+    display: flex;
+    align-items: center;
+    gap: 163px;
+    margin-top: 35px;
+}
+
+.author-name h6{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    color: #000000;
+}
+
+.author-name p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.2em;
+    color: #000000;
+    margin-top: 8px;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.book-m, .fav{
+    width: 37px;
+    background: #FBEFDA;
+    border-radius: 500px;
+    padding: 6px 8px 3px;
+    cursor: pointer;
+}
+
+.action-btn{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+
+.post-cont{
+    display: flex;
+    align-items: center;
+}
+
+.blog-content-wrap{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.rating-wrapper{
+    background-color: #fff;
+    width: 400px;
+    border-radius: 15px;
+    padding: 50px 56px 45px 56px;
+}
+
+.pop-posts{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.2em;
+    color: #000000;
+    text-align: center;
+}
+
+.pop-post{
+    width: 288px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), -4px 4px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 15px;
+    margin: 35px auto;
+}
+
+.pop-post:nth-child(1){
+    margin-top: 50px;
+}
+
+.pop-prev{
+    border-radius: 15px 15px 0 0;
+}
+
+.post-text p{
+    width: 169px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    color: #000000;
+}
+
+.post-text{
+    display: flex;
+    align-items: center;
+    gap: 65px;
+    margin: 8px 11px 8px 11px;
+}
+
+.post-text img{
+    cursor: pointer;
+}
+
+.rating-authors{
+    width: 229px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #000000;
+    margin: 50px auto;   
+}
+
+.user-rate{
+    width: 288px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), -4px 4px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 15px;
+    padding: 15px 24px 15px 11px;
+}
+
+.rate-stat p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    color: #000000;
+}
+
+.stat-line p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.2em;
+    color: #000000;
+    margin-left: 16px;
+}
+
+.stat-line{
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+}
+
+.user-rate{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 35px;
+}
+
+.footer{
+    margin-top: 120px;
+}
+
+.footer-cont-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer hr{
+    background-color: grey;
+    border: 1px solid grey;
+    margin-top: 80px;
+}
+
+.f-credits{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0 30px 0;
+}
+
+.f-credits p{
+    text-align: center;
+    font-size: 16px;
+    color: #818080;
+}
+
+.add-post{
+    display: block;
+    text-decoration: none;
+    width: 231px;
+    background: #5E92F0;
+    border-radius: 10px;
+    padding: 16px 31px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.2em;
+    color: #fff;
+    transition: 0.3s ease; 
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.add-post:hover{
+    background-color: #4882EC;
+}
+
