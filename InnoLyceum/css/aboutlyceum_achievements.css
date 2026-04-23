@@ -1,0 +1,147 @@
+.new-link {
+    color: #000;
+}
+
+.fa-user{
+    color: #0136B5;
+}
+
+.new-link:hover,
+.has-submenu:hover > .new-link{
+    background: linear-gradient(90deg, #000, #0136B5 98%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    width: fit-content;
+}
+
+.achievements{
+    background: url('../img/achievements_bg_new.svg') no-repeat center top/cover;
+    padding-top: 80px;
+}
+
+.text_achievements{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph_proudof_achievements{
+    font-weight: 700;
+    font-size: 12px;
+    padding: 7px 38px;
+    line-height: 144%;
+    color: white;
+    background: linear-gradient(90deg, #5CA241, #0136B5);
+    border-radius: 500px;
+}
+
+.title_achievements{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 144%;
+    background: linear-gradient(90deg, #000000 10%, #0136B5 85%);
+     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 9px;
+}
+
+.title_underscore{
+    width: 65px;
+    height: 5px;
+    border-radius: 500px;
+    background-color: #0136B5;
+    margin: 17px auto 0;
+    text-align: center;
+    margin-bottom: 51px;
+}
+.paragraph_achievements{
+    text-align: center;
+    max-width: 580px;
+    opacity: 68%;
+    line-height: 144%;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.achievements-cards-row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 51px 33px;
+}
+
+
+.achievements_card_decor{
+   position:absolute;
+   bottom: 0;
+   right: 0;
+}
+
+
+.achievements-card{
+    padding: 40px 40px 18px 26px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+    max-width: 359px;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+
+.achievements-card:hover{
+    box-shadow: 0px 10px 20px 0px rgba(1, 54, 181, 0.3);
+}
+
+.title_achievements_card{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 144%;
+    margin-bottom: 29px;
+    height: 58px;
+}
+
+.paragraph_achievements_card
+{
+     font-weight: 400;
+    font-size: 16px;
+    opacity: 57%;
+    line-height: 144%;
+    margin-bottom: 37px;
+}
+
+.awards_text{
+     font-weight: 700;
+     color: #0136B5;
+    font-size: 12px;
+    line-height: 144%;
+}
+
+.icons_awards{
+    display: flex;
+    margin-bottom: 39px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.years_achievements{
+    color: #0136B5;
+    font-weight: 500;
+    font-size: 11px;
+    border-radius: 500px;
+    background: rgba(1, 54, 181, 0.11);
+    display: inline-block;
+    padding: 6px 15px;
+    transition: 0.6s ease;
+}
+
+.years_achievements:hover{
+    box-shadow: 0px 5px 8px 0px rgba(1, 54, 181, 0.5);
+}
+
+.achievements_cards_all{
+    margin-top: 98px;
+    padding-bottom: 130px;
+}

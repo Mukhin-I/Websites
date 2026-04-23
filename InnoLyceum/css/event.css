@@ -1,0 +1,322 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    color: #1d1d1d;
+}
+
+a {
+    text-decoration: none;
+}
+.new-link {
+    color: #000;
+}
+
+.fa-user{
+    color: #0136B5;
+}
+
+.new-link:hover,
+.has-submenu:hover > .new-link{
+    background: linear-gradient(90deg, #000, #0136B5 98%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    width: fit-content;
+}
+
+.container{
+    max-width: 1143px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.event-page {
+    width: 100%;
+    margin: 0 auto;
+    background: url("../img/back-page.png") no-repeat center top/cover;
+    background-size: 100%;
+    padding-bottom: 60px;
+}
+
+.conference {
+    width: 1143px;
+    height: 411px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 19px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.goback-btn {
+    background: #0136B5;
+    width: fit-content;
+    padding: 8px 20px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.goback-btn:hover {
+    box-shadow: 0 10px 20px 0 rgba(1, 54, 181, 0.25);
+}
+
+.img-conference {
+    width: 1143px;
+    margin: 0 auto;
+    height: auto;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+
+.conference-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+   padding-top: 270px;
+   padding-left: 98px;
+    padding-right: 98px;
+}
+
+.title-conference {
+    color: #fff;
+    font-weight: 700;
+    font-size: 32px;
+    width: 100%;
+    margin-bottom: 16px;
+}
+.conference-meta{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.calendar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.calendar-text{
+    color: #fff;
+    font-weight: 500;
+    font-size: 13px;}
+
+.img-calendar {
+    width: 20px;
+    height: 20px;
+}
+.time{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.time-text{
+    color: #fff;
+    font-weight: 500;
+    font-size: 13px;
+
+
+}
+.geo{
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+.img-geo{
+    width: 12px;
+    height: 17px;
+}
+.geo-text{
+    color: #fff;
+    font-weight: 500;
+    font-size: 13px;
+
+}
+
+
+.description {
+    width: 980px;
+    height: 85px;
+    margin-bottom: 50px;
+    background: #fff;
+
+}
+.description-content {
+    width: 980px;
+    height: 85px;
+}
+
+
+.description-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0136B5;
+    margin-bottom: 16px;
+}
+
+.description-description {
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+    width: 980px;
+    height: 40px;
+    padding-left: 20px;
+}
+.program{
+    width: 1143px;
+    height: 321px;
+    margin-bottom: 81px;
+}
+
+.program-content {
+    width: 184px;
+    height: 29px;
+    position: relative;
+    margin-bottom: 44px;
+}
+
+.content {
+    padding-bottom: 90px;
+}
+.program-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0136B5;
+    display: inline-block;
+}
+.img-mark-page{
+    width: 26px;
+    height: 26px;
+    position: absolute; /* Абсолютное позиционирование внутри program-content */
+    top: 2px; /* 2px сверху */
+    left: calc(149px + 9px);
+}
+.conference-item {
+    width: 1143px;
+    height: 73px;
+    padding: 24px 0px 24px 25px;
+    margin-bottom: 16px;
+    overflow: hidden; /* Clip content если нужно */
+        position: relative;
+        opacity: 1; /* 100% */
+        border-radius: 10px; /* Corner radius (укажите нужное значение) */
+        background-color: #F8FAFC;
+        border-left: 5px solid #E91E63;
+
+        box-sizing: border-box;
+
+    }
+
+.conference-text {
+
+    font-size: 20px;
+    font-weight: 500; /* Medium */
+    color: #000000;
+}
+
+/* Для последнего элемента убираем отступ снизу */
+.conference-item:last-child {
+    margin-bottom: 0;
+}
+.speakers{
+    width: 1143px;
+    height: 233px;
+    margin-bottom: 81px;
+}
+.speakers-content {
+    height: 29px;
+    position: relative;
+    margin-bottom: 44px;
+}
+.speakers-title {
+    width: 119px;
+    height: 29px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #0136B5;
+    display: inline-block;
+}
+.img-micro-page{
+    width: 26px;
+    height: 26px;
+    position: absolute; /* Абсолютное позиционирование внутри program-content */
+    top: 2px; /* 2px сверху */
+    left: calc(119px + 9px);
+}
+.speakers-items{
+    width: 1143px;
+    height: 73px;
+    padding: 12px 1075px 12px 20px;
+    margin-bottom: 16px;
+    overflow: hidden; 
+    position: relative;
+    margin-top: 0;
+    border-radius: 10px;
+    border-left: 5px solid #5CA241;
+    box-sizing: border-box;
+
+}
+.img-speakers{
+  width: 48px;
+  height: 48px;
+  border-radius: 500px;
+}
+.speakers-text{
+    font-size: 20px;
+    font-weight: 500; /* Medium */
+    color: #000000;
+  position: absolute; /* Абсолютное позиционирование внутри program-content */
+  top: 24px; /* 2px сверху */
+  left: calc(87px);
+}
+.custom-button {
+    background-color: #0136B5; /* Fill color */
+    padding: 18px 15px;
+    color: white; /* Text color */
+    border-radius: 9px; /* Or set border radius if needed */
+    font-size: 16px; /* Adjust font size */
+    cursor: pointer;
+    font-family: 'Montserrat';
+}
+.button-text {
+    width: 226px;
+    height: 24px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px; /* Чтобы текст был точно по центру по вертикали */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.custom-button:hover {
+    opacity: 0.9; /* Hover effect */
+}
+
+.custom-button:active {
+    transform: scale(0.98); /* Click effect */
+}

@@ -1,0 +1,362 @@
+.sponsor_text{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 33px;
+  margin-bottom: 167px;
+}
+.sponsor_text_title{
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+.sponsor_paragraph{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 522px;
+    margin-top: 20px;
+}
+
+
+.header_sponsorship {
+    /*background: url('../img/sponsorship_header_bg.svg') no-repeat center top / cover;*/
+
+}
+
+.header_sponsorship::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.39);
+}
+
+.sponsor_top_img_wrap {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.sponsor_top_img_wrap img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.sponsorship{
+     background: url('../img/sponsor_bg_new.svg') no-repeat center top / cover;
+}
+.about_sponsorship{
+    display: flex;
+    margin-top: 90px;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 120px;
+}
+
+.img_card_sponsorship img{
+    height: 640px;
+}
+.about_sponsorship_text{
+    margin-left: 33px;
+    padding-top: 40px;
+    padding-left: 44px;
+    padding-right: 99px;
+    border-radius: 15px;
+   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+   z-index: 10;
+}
+
+.about_sponsorship_title{
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.about_sponsorship_paragraph{
+    margin-top: 56px;
+    font-weight: 400;
+    max-width: 415px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.list_with_icons_sponsorship{
+    list-style-type: none;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 86px;
+}
+
+.list_text_sponsorship{
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 9px;
+}
+
+.item_with_icons_sponsorship{
+    display: flex;
+}
+
+.text_underline_sponsorship{
+     width: 50px;
+    height: 3px;
+    margin-top: 17px;
+    border-radius: 500px;
+    background: linear-gradient(90deg, #E91E63 62%, #FBC600);
+}
+
+.underscore_list_aboutsponsorsip{
+     width: 390px;
+     height: 1px;
+    border-radius: 500px;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.text_underline_choose_sponsorship{
+     width: 78px;
+     text-align: center;
+    height: 3px;
+    margin: 10px auto 0;
+    border-radius: 500px;
+    background: linear-gradient(90deg, #0136B5 62%, #5CA241);
+}
+
+.title_choose_sponsor{
+    text-align: center;
+}
+
+
+.sponsorship-card img{
+   position:absolute;
+   top: 0;
+   right: 0;
+}
+
+
+.sponsorship-card{
+    padding: 42px 35px 33px 35px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    max-width: 555px;
+}
+
+.sponsorship-card-content_title{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 17px;
+}
+
+.sponsorship-card-content_paragraph{
+     font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 35px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.title_wrapper {
+  text-align: center;
+}
+
+.card2{
+    background: linear-gradient(90deg, #FBC600, #E91E63) !important;
+}
+.card3{
+    background: linear-gradient(90deg, #0136B5, #E91E63) !important;
+}
+
+.how_much_gathered{
+    display: flex;
+    margin-bottom: 11px;
+    justify-content: space-between;
+}
+
+.choose_variant_gathered{
+color: white;
+background-color: #0136B5;
+  border-radius: 8px;
+  font-size: 12px;
+  text-align: center;
+  padding: 14px 170px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.5s ease;
+  font-family: 'Montserrat';
+}
+
+.gathered_number{
+    font-weight: 700;
+    font-size: 11px;
+    color: #0136B5;
+}
+
+.goal_gathered{
+    font-weight: 400;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.gathered_underscore {
+    width: 100%;
+    max-width: 485px;
+    height: 3px; 
+    background-color: #e0e0e0;
+    border-radius: 500px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+}
+.sponsorship-cards-row{
+    margin-top: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 33px;
+}
+.gathered_underscore_fill {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #00A2DC, #5CA241);
+    border-radius: 500px;
+    transition: width 0.5s ease;
+}
+
+
+.application_card{
+    margin-top: 110px;
+    padding: 80px 194px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-bottom: 77px;
+    border-radius: 18px;
+}
+
+.form_for_sponsorship{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_form_sponsorship{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.23);
+    width: 100%;
+    font-family: 'Montserrat';
+    padding-bottom: 13px;
+    padding-top: 13px;
+    padding-left: 6px;
+    margin-top: 36px;
+    outline: none;
+}
+
+.input_form_sponsorship:first-child{
+    margin-top: 0 !important;
+}
+
+.input_form_sponsorship::placeholder{
+    color:rgba(0, 0, 0, 0.23);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.chosen_variant{
+    display: flex;
+    padding: 17px 24px;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    background: #F8FAFC;
+    border-radius: 10px;
+    margin-bottom: 61px;
+    border-left: 6px solid #5CA241;
+}
+
+.paragraph_chosen_variant{
+    font-weight: 500;
+    font-size: 16px;
+    color: #5CA241;
+}
+
+.goal_number_chosen{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.title_application_card{
+    font-weight: 700;
+    font-size: 23px;
+    margin-bottom: 36px;
+}
+
+.paragraph_application_card{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 46px;
+}
+
+.form_for_sponsorship{
+    width: 100%;
+}
+
+.send_form{
+    width: 100%;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    background-color: #E91E63;
+    padding: 14px 298px;
+    border-radius: 8px;
+    margin-top: 56px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.send_form:hover{
+    box-shadow: 0px 5px 10px 0px #E91E63;
+}
+
+ #successModal{
+  display: none;
+  position: fixed;
+  border-radius: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border: 1px solid #ccc;
+  padding: 30px 40px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  z-index: 1000;
+  transition: 0.6s ease;
+}
+
+  .successModalButton{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    background-color: #0136B5;
+    padding: 8px 80px;
+    border-radius: 8px;
+    margin-top: 56px;
+    cursor: pointer;
+    transition: 0.4s ease;
+  }

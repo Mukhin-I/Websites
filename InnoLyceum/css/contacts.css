@@ -1,0 +1,25 @@
+.new-link {
+    color: #000;
+}
+
+.fa-user{
+    color: #0136B5;
+}
+
+.new-link:hover,
+.has-submenu:hover > .new-link{
+    background: linear-gradient(90deg, #000, #0136B5 98%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    width: fit-content;
+}
+
+.contacts {
+    padding-top: 120px;
+}
+
+.contacts-page-section {
+    background: url("../img/fixedBg.png") no-repeat center top / cover;
+    background-size: 100%;
+}

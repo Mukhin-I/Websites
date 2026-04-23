@@ -1,0 +1,187 @@
+.new-link {
+    color: #000;
+}
+
+.new-link:hover,
+.has-submenu:hover > .new-link{
+    background: linear-gradient(90deg, #000, #0136B5 98%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    width: fit-content;
+}
+
+.staff-section {
+    background: url("../img/fixedBg.png") center top / cover;
+    padding-bottom: 60px;
+    background-size: 100%;
+}
+
+/*.staff-section-content {*/
+/*    background: url("../img/fixedBg.png") no-repeat center top / cover;*/
+/*}*/
+.staff-sec-title {
+    margin-top: 60px;
+    font-weight: 700;
+    font-size:  24px;
+}
+
+.staff-underscore {
+    background: linear-gradient(90deg, #0136B5 62%, #E91E63);
+    width: 78px;
+    height: 3px;
+    border-radius: 500px;
+    margin-top: 15px;
+}
+
+.staff-sec-subtitle {
+    margin-top: 25px;
+    margin-bottom: 67px;
+    font-weight: 500;
+    font-size: 28px;
+    width: fit-content;
+    background: linear-gradient(90deg, #000, #0136B5 98%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.staff-card {
+    width: 359px;
+    height: 434px;
+    border-radius: 22px;
+    overflow: hidden;
+    position: relative;
+    transition: 0.3s ease;
+}
+
+.staff-card img {
+    width: 100%;
+    position: relative;
+    top: -15%;
+}
+
+.staff-card-content::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 120%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(1, 54, 181, 0.5) 90%);
+    top: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+.staff-card-content:hover::before {
+    background: rgba(1, 54, 181, 0.76);
+}
+
+.staff-card-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 250px 28px 94px 35px;
+    transition: 0.3s ease;
+}
+
+.staff-card-content:hover {
+    padding: 56px 28px 94px 35px;
+}
+
+.staff-tag {
+    width: fit-content;
+    padding: 6px 8px;
+    font-weight: 500;
+    font-size: 11px;
+    color: #fff;
+    border-radius: 30px;
+    position: relative;
+}
+
+.staff-tag-red {
+    background: #E91E63;
+}
+
+.staff-tag-blue {
+    background: #0136B5;
+}
+
+.staff-tag-green {
+    background: #5CA241;
+}
+
+.staff-tag-yellow {
+    background: #FBC600;
+}
+
+.staff-tag-light {
+    background: #00A2DC;
+}
+
+.staff-tag-orange {
+    background: #EC7D00;
+}
+
+.staff-name {
+    width: 296px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    margin-top: 13px;
+    color: #fff;
+    position: relative;
+}
+
+.staff-position {
+    margin-top: 8px;
+    font-weight: 700;
+    width: 296px;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FBC600;
+    position: relative;
+}
+
+.staff-merits p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 27px;
+    color: #fff;
+    position: relative;
+}
+
+.staff-merits img {
+    width: 15px;
+    height: 15px;
+}
+
+.staff-exp {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    position: relative;
+}
+
+.staff-merits {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    margin-top: 8px;
+    position: relative;
+}
+
+.staff-desc {
+    margin-top: 45px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 19px;
+    color: #fff;
+    position: relative;
+}
+
+.staff-cards-row {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+    margin-bottom: 40px;
+}

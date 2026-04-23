@@ -1,0 +1,1195 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+@font-face {
+   font-family: 'GetVoIPGrotesque';
+   src: url("../fonts/GetVoIPGrotesque.woff2") format("woff2");
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+    font-family: 'GetVoIPGrotesque';
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    color: #1d1d1d;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1143px;
+    margin: 0 auto;
+}
+
+/*---------------------------------------------------------------------*/
+/*@font-face {*/
+/*    font-family: "Montserrat-Bold";*/
+/*    src: url("fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: "Montserrat-Regular";*/
+/*    src: url("fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: "Montserrat-Light";*/
+/*    src: url("fonts/Montserrat/Montserrat-Light.ttf") format("truetype");*/
+/*}*/
+
+
+/*@font-face {*/
+/*    font-family: "Montserrat-SemiBold";*/
+/*    src: url("fonts/Montserrat/Montserrat-SemiBold.ttf") format("truetype");*/
+/*}*/
+
+
+.content_inside_header {
+    position: relative;
+    z-index: 2;
+}
+
+.hero_text {
+    position: relative;
+    z-index: 3;
+    margin-top: 300px;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.images_lic{
+    margin-left: 40px;
+}
+
+.list_header {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 45px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.navigation_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-weight: 700;
+    gap: 47px;
+}
+.menuopen_item:hover{
+    font-weight: 700;
+    background: linear-gradient(90deg, #000000, #00A2DC 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    width: fit-content;
+}
+
+.contacts_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 54px;
+}
+
+.main_link {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.3s ease;
+    font-weight: 500;
+}
+
+.main_link:hover,
+.has-submenu:hover > .main_link {
+    background: linear-gradient(90deg, #fff, #FBC600 98%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    width: fit-content;
+    text-decoration: 2px underline;
+    text-underline-offset: 5px;
+    font-weight: 700;
+}
+
+.contacts_header_links {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding-left: 10px;
+    transition: 0.3s ease;
+}
+
+.contacts_header_links:hover {
+    color: #00A2DC;
+}
+
+.hero_text {
+    color: #fff;
+    width: 865px;
+}
+
+.hero_text h1 {
+    font-size: 48px;
+    text-align: left;
+    padding-bottom: 24px;
+}
+
+.has-submenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.hero_text span {
+    color: #f0c000;
+}
+
+.sticker_educ{
+    transform: rotate(8deg);
+    position: absolute;
+    right: 25%;
+    bottom: 4%;
+}
+
+.hero_paragraph_first {
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 11px;
+    z-index: 2;
+}
+
+.hero_paragraph_second {
+    text-align: left;
+    font-size: 22px;
+    width: 865px;
+}
+
+.header {
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.header .content,
+.header .contacts_header,
+.header .navigation_header {
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+
+.content_inside_header{
+    position: relative;
+    z-index: 1;
+}
+
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    margin: 0;
+    list-style: none;
+    background: #fff;
+    z-index: 10000;
+    border-radius: 6px;
+    padding: 0 20px;
+    box-shadow: 0px 10px 20px 0px rgba(1, 54, 181, 0.15);
+}
+
+.submenu.visible {
+    display: block;
+}
+
+.menuopen_item{
+    color: black;
+    position: relative;
+    text-decoration: none;
+    display: block;      
+    min-width: 130px;             
+    text-align: left;        
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+    font-weight: 500;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.65);
+    transition: 0.3s ease;
+    padding: 20px 0;
+}
+
+.submenu li:last-child > a.menuopen_item {
+    border-bottom: none;
+}
+
+.header_abitur{
+    /*background: url('../img/news_page_new.svg') no-repeat center top / cover;*/
+}
+
+.header_abitur::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.39);
+}
+
+.abitur-top-img-wrap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.abitur-top-img-wrap img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.abitur_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 52px;
+}
+
+.abitur_text_title{
+    font-weight: 700;
+    line-height: 144%;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.abitur_paragraph{
+    font-weight: 400;
+    max-width: 522px;
+    text-align: center;
+    line-height: 144%;
+    font-size: 16px;
+    margin-bottom: 120px;
+}
+
+.ask_question_header{
+    background: #FBC600;
+    color: white;
+    font-family: 'Montserrat';
+    padding: 10px 23px;
+    line-height: 144%;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 7px;
+    margin-bottom: 98px;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+
+
+.ask_question_header:hover{
+    background: #fff;
+    color: #FBC600;
+}
+
+.ask_question_header{
+    display: flex;
+    align-items: center;
+}
+
+.ask_question_header i{
+    margin-left: 10px;
+}
+
+.abitur-card {
+    width: 359px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+    position: relative;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.abitur-card-image-wrapper {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.abitur-cards-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 33px;
+    justify-content: start;
+    margin-bottom: 96px;
+}
+
+.abitur-card-content, .abitur-card-content_courses{
+    padding: 27px 0px 26px 18px;
+    box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    flex: 1 1 auto;
+    overflow: hidden;
+}
+.abitur-card-content_courses{
+    padding: 44px 0px 20px 41px;
+}
+
+.item_card_abitur_courses::marker{
+    color: #0136B5;
+    font-size: 20px;
+}
+.abitur-card-content, .abitur-card-text {
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.item_card_abitur{
+    font-weight: 400;
+    font-size: 13px;
+    color: rgba(0,0,0,0.75)
+}
+
+.list_card_abitur{
+    min-height: 250px;
+}
+
+.item_card_abitur::marker {
+  font-size: 17px;
+  padding-right: 12px;
+  color: #E91E63;
+}
+
+.for_abiturients_title{
+    font-size: 23px;
+    font-weight: 700;
+}
+.list_card_abitur{
+    margin-left: 18px;
+    max-width: 300px;
+    margin-top: 31px;
+    margin-bottom: 30px;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.title_underscore{
+    width: 78px;
+    height: 3px;
+    border-radius: 500px;
+    background: linear-gradient(90deg, #0136B5 62%, #FBC600);
+    margin: 10px auto 0;
+    text-align: center;
+    margin-bottom: 43px;
+}
+
+.text_header_for_abiturients{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 98px;
+}
+
+
+.for_abiturients_desc{
+    font-weight: 500;
+    font-size: 28px;
+    background: linear-gradient(90deg, #000000, #0136B5);
+     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 50px;
+    text-align: center;
+    max-width: 731px;
+}
+
+.title_card_abitur{
+     font-weight: 700;
+    font-size: 18px;
+    background: linear-gradient(90deg, #000000, #0136B5);
+     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: 731px;
+}
+
+.abitur_card_courses_wrapper{
+    margin-top: 40px;
+}
+
+.container_text_title{
+    display: flex;
+    align-items: center;
+}
+
+.container_text_title img{
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+}
+
+.underscore_abitur_card{
+    width: 316px;
+    height: 1px;
+    background: #000000;
+    opacity: 8%;
+    border-radius: 500px;
+    margin-bottom: 31px;
+}
+
+.download_card_abitur{
+    color: #0136B5;
+    font-weight: 500;
+    font-size: 14px;
+    transition: 0.6s ease;
+}
+
+.download_card_abitur:hover{
+    color: #00A2DC;
+}
+.download_card_abitur i{
+    margin-left: 5px;
+}
+.abitur-card{
+    transition: 0.6s ease;
+    max-height: 690px;
+}
+
+.abitur-card:hover{
+    box-shadow: 0px 10px 20px 0px rgba(1, 54, 181, 0.3);
+}
+
+.title_underscore_enrollment{
+    width: 78px;
+    height: 3px;
+    border-radius: 500px;
+    margin: 10px auto 0;
+    text-align: center;
+    margin-bottom: 43px;
+    background: linear-gradient(90deg, #E91E63 62%, #FBC600);
+}
+
+.for_abiturients{
+    background: url('../img/background_for_abiturients.svg') no-repeat center top/cover;
+    background-size: 100%;
+}
+
+table{
+    border-radius: 12px;
+    box-shadow: 0 10px 20px 0px rgba(0,0,0,0.1);
+}
+
+thead{
+    background: linear-gradient(90deg, #0136B5, #00A2DC);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+
+tbody{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+}
+.table_enrollment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+th{
+    padding: 35px 0px;
+    text-align: left;
+}
+td{
+    padding: 20px 0;
+     max-width: 200px;
+}
+td:first-child, th:first-child{
+    padding-left: 67px;
+}
+.last_row{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(0,0,0,0.51)
+}
+
+
+tr{
+    border-bottom: 1px solid rgba(1, 54, 181, 0.06);
+}
+tr:last-child{
+    border: none;
+}
+
+.custom-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.custom-table thead{
+  background: linear-gradient(to right, #0047ab, #00aaff);
+  color: white;
+}
+
+.custom-table thead th:first-child {
+  border-top-left-radius: 12px;
+}
+.custom-table thead th:last-child {
+  border-top-right-radius: 12px;
+}
+
+.custom-table thead tr {
+  overflow: hidden;
+}
+
+td span{
+    color: #00A2DC;
+}
+.abitur_card_preparation{
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.abitur-card-image-wrapper_courses img{
+    width: 365px;
+    height: 450px;
+}
+
+.title_card_abitur_preparation{
+    font-weight: 700;
+    font-size: 24px;
+    background: linear-gradient(90deg, #0136B5, #E91E63);
+     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.item_card_abitur_preparation{
+     font-weight: 400;
+    font-size: 16px;
+    color: rgba(0,0,0,0.47);
+    display: flex;
+    align-items: center;
+}
+
+.list_card_abitur_preparation{
+    list-style-type: none;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.first::before{
+    content: "1";
+    font-size: 40px;
+    font-weight: 700;
+    color: #0136B5;
+    margin-right: 13px;
+}
+
+.second::before{
+    content: "2";
+    font-size: 40px;
+    font-weight: 700;
+    color: #FBC600;
+    margin-right: 13px;
+
+}
+
+.third::before{
+    content: "3";
+    font-size: 40px;
+    font-weight: 700;
+    color: #E91E63;
+    margin-right: 13px;
+
+}
+
+.forth::before{
+    content: "4";
+    font-size: 40px;
+    font-weight: 700;
+    color: #5CA241;
+    margin-right: 13px;
+}
+
+.abitur-card-content_preparation {
+    box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    flex: 1 1 auto;
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 37px;
+    padding-left: 67px;
+}
+
+.abitur-card-content_preaparation, .abitur-card-text {
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+
+.download_card_abitur_preparation{
+    color: #00A2DC;
+    font-weight: 500;
+    font-size: 18px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.6s ease;
+}
+
+.download_card_abitur_preparation:hover{
+    color: #0136B5;
+}
+.download_card_abitur_preparation i{
+    margin-left: 5px;
+}
+.how_to_prepare{
+    margin-bottom: 96px;
+}
+
+.lines_preparation{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.title_underscore_courses{
+    width: 78px;
+    height: 3px;
+    border-radius: 500px;
+    margin: 10px auto 0;
+    text-align: center;
+    margin-bottom: 43px;
+    background: linear-gradient(90deg, #0136B5 62%, #5CA241);
+}
+
+.abitur_card_courses{
+    display: flex;
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+}
+
+.abitur-card-image-wrapper_courses{
+    width: 365px;
+    height: 450px;
+}
+
+.title_card_abitur_courses{
+    font-weight: 700;
+    font-size: 24px;
+    background: linear-gradient(90deg, #0136B5, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.list_courses_info{
+    display: flex;
+    list-style-type: none;
+    gap: 21px;
+    margin-top: 15px;
+    margin-bottom: 44px;
+}
+
+.item_courses_info i{
+    margin-right: 8px;
+}
+
+.fa-calendar{
+    color: #0136B5;
+}
+
+.list_card_abitur_courses{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 75px;
+}
+
+.fa-clock{
+    color: #E91E63;
+}
+
+.fa-ruble{
+    color: #5CA241;
+}
+.item_courses_info{
+    font-weight: 400;
+    font-size: 13px;
+    color: rgba(0,0,0,0.47);
+}
+
+.list_card_abitur_courses{
+    margin-left: 17px;
+}
+
+.item_card_abitur_courses{
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.card_abitur_courses_button{
+    cursor: pointer;
+    font-family: 'Montserrat';
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 15px 16px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #00A2DC, #0136B5);
+}
+
+.abitur_card_courses_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.courses{
+    margin-bottom: 96px;
+}
+
+.title_underscore_questions{
+    width: 78px;
+    height: 3px;
+    border-radius: 500px;
+    background: linear-gradient(90deg, #00A2DC 62%, #EC7D00);
+    margin: 10px auto 0;
+    text-align: center;
+    margin-bottom: 43px;
+}
+
+.card_abitur_courses_button{
+    transition: 0.6s ease;
+}
+
+.card_abitur_courses_button:hover{
+   box-shadow: 0px 10px 20px 0px rgba(1, 84, 181, 0.4)
+}
+
+.comission_card{
+    margin-top: 40px;
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.1);
+    width: 100%;
+    padding: 46px 44px;
+    margin-bottom: 156px;
+    border-radius: 12px;
+}
+
+.comission_title_container{
+    display: flex;
+    align-items: center;
+}
+
+.comission_title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 24px;
+}
+
+.director_container_text_name{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.director_container_text_job{
+    font-weight: 400;
+    font-size: 10px;
+    color: rgba(0,0,0,0.55)
+}
+
+.director_container_text{
+    margin-left: 8px;
+}
+
+.photo_card{
+    border-radius: 500px;
+}
+
+.director_container{
+    display: flex;
+    align-items: center;
+}
+
+.information_comission{
+    display: flex;
+    align-items: center;
+}
+
+.underscore_director{
+    width: 344px;
+    height: 1px;
+    border-radius: 500px;
+    margin: 21px 0;
+    background: rgba(0,0,0,0.09);
+}
+
+.list_contacts_comission{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.item_contacts_comission{
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+
+.item_contacts_comission i{
+    color: #0136B5;
+    margin-right: 10px;
+}
+
+.item_contacts_comission{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.day_of_week{
+    font-weight: 500;
+    font-size: 13px;
+     margin-right: 16px;
+}
+
+.time_week{
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(0,0,0,0.56);
+}
+
+.list_schedule{
+    margin-top: 30px;
+    display: flex;
+    gap: 9.5px;
+    padding: 10px 12px;
+    box-shadow: 0px 10px 20px 0px rgba(1,84,181,0.1);
+    border-radius: 11px;
+    width: 300px;
+}
+
+.item_schedule{
+    display: flex;
+}
+
+.hours_of_work{
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.abitur-cards-row{
+    margin-top: 50px;
+}
+.table_enrollment{
+    margin-top: 50px;
+}
+.hours_of_work i{
+    color: #0136B5;
+    margin-right: 10px;
+    margin-bottom: 6px;
+}
+
+.secondcolumn_comission_card{
+    margin-left: 50px;
+}
+
+.column_days, .column_time{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hours_of_work{
+    margin-top: 15px;
+}
+.map{
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.map iframe{
+     border-top-left-radius: 12px;
+     border-top-right-radius: 12px;
+}
+
+.address{
+    font-weight: 700;
+    font-size: 11px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.address_container i{
+    color: #0136B5;
+}
+
+.address_container{
+    padding: 12px 0;
+    display: flex;
+    background: #f9f9f9f9;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+
+.photo_footer{
+     background: url('../img/footer_photo.svg') no-repeat center top / cover;
+     height: 325px;
+     display: flex;
+     flex-direction: column;
+     justify-content: start;
+     padding: 26px 0px 35px 35px;
+    margin-bottom: 71px;
+}
+
+
+.title_footer{
+    font-weight: 700;
+    color: white;
+    font-size: 37.5px;
+}
+
+.paragraph_footer{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.paragraph2_footer{
+     font-weight: 500;
+     margin-top: 8px;
+    font-size: 16px;
+    max-width: 390px;
+    opacity: 61%;
+}
+
+.checkin_footer{
+    background-color: #fff;
+    padding: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.4s ease;
+    border-radius: 5px;
+}
+.new-link {
+    color: #000;
+}
+
+
+.new-link:hover,
+.has-submenu:hover > .new-link{
+    background: linear-gradient(90deg, #000, #0136B5 98%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    width: fit-content;
+}
+
+
+.checkin_footer:hover{
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.25);
+} 
+
+.input_container{
+    margin-top: 20px;
+}
+
+
+.enter-email_footer{
+    background-color: #00A2DC;
+    border-bottom: 1px solid white;
+    opacity: 50%;
+    padding: 5px 194px 7px 0px;
+    margin-right: 20px;
+    transition: 0.3s ease;
+}
+
+.enter-email_footer::placeholder{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.enter-email_footer:focus{
+   outline: none;
+   font-family: 'Montserrat', sans-serif;
+   color: #fff;
+   font-size: 15px;
+   opacity: 80%;
+}
+
+.first_list_footer{
+    display: flex;
+   list-style-type: none;
+   justify-content: space-between;
+}
+
+.footer_tglink{
+    margin-right: 17px;
+}
+.footer_navigation{
+    display: flex;
+    flex-direction: column;
+}
+
+.second_list_footer{
+    display: flex;
+    gap: 52px;
+   list-style-type: none;
+}
+
+.title_second_list_footer{
+    font-weight: 700;
+    font-size: 17px;
+}
+.second_list_footer{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.arrow_beginning{
+    margin-top: 20px;
+}
+
+.third_list_footer{
+   list-style-type: none;
+   margin-left: 97px;
+}
+
+.make_call{
+    background-color: #fff;
+    padding: 10px 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.4s ease;
+    border: 1px solid #FBC600;
+    border-radius: 5px;
+}
+
+
+.make_call:hover{
+    background-color: #FBC600;
+    border: 1px solid #fff;
+}
+
+.contacts_footer{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    align-items: end;
+    margin-top: 0px;
+}
+
+
+.footer_phone{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: 5%;
+    color: #1d1d1d;
+    opacity: 75%;
+    transition: 0.3s ease;
+}
+
+.footer_mail{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: 5%;
+    color: #1d1d1d;
+    opacity: 75%;
+    transition: 0.3s ease;
+}
+
+.footer_phone:hover {
+    color: #FBC600;
+}
+
+.footer_mail:hover {
+    color: #FBC600;
+}
+.footer {
+    background: url("../img/fixedBg.png") no-repeat center top / cover;
+    background-size: 100%;
+}
+
+.submenu_up{
+    display: none;
+    position: absolute;
+    margin: 0;
+    list-style: none;
+    background: #fff;
+    z-index: 10000;
+    border-radius: 6px;
+    padding: 0 20px;
+    box-shadow: 0px 10px 20px 0px rgba(1, 54, 181, 0.15);
+    bottom:100%;
+}
+
+.submenu_up.visible{
+    display: block;
+}
+
+.submenu_up li:last-child > a.menuopen_item {
+    border-bottom: none;
+}
+

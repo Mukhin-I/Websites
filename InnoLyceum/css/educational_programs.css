@@ -1,0 +1,149 @@
+body{
+    background-color: #0136B5;
+}
+
+.programs_education{
+    background: url('../img/programs_educ_bg.svg') center top/cover !important;
+    background-size: 100%;
+}
+
+.title_educ{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.text_title{
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 105px;
+}
+
+.desc_educ{
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 17px;
+    max-width: 541px;
+}
+
+
+.educationalprog-cards-row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 57px;
+    padding-bottom: 150px;
+}
+
+.educationalprog-card{
+    width: 335px;
+    border-radius: 16px;
+    min-height: 390px;
+    overflow: hidden;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.educationalprog-card-content{
+     padding: 38px 28px 21px 23px;
+    box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    flex: 1 1 auto;
+    overflow: hidden;
+}
+
+.card_educationalprog{
+    color: white;
+    background-color: #0136B5;
+    padding: 12px 63px;
+    font-weight: 500;
+    font-size: 14px;
+    transition: 0.6s ease;
+    border-radius: 6px;
+    width: 100%;
+    cursor: pointer;
+    font-family: 'Montserrat';
+}
+
+.card_educationalprog:hover{
+    box-shadow: 0px 10px 20px 0px rgba(0, 162, 220, 0.5);
+}
+.card_educationalprog i{
+    margin-left: 5px;
+}
+.container_text_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.text_up{
+    padding: 5px 12px;
+    background-color: #E91E63;
+    border-radius: 35px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 11px;
+    color: white;
+    max-height: 23px;
+}
+
+.title_card_educationalprog{
+    font-weight: 700;
+    font-size: 20px;
+    min-height: 78px;
+    margin-bottom: 25px;
+}
+
+.desc_card_educationalprog{
+    color: rgba(0,0,0,0.53);
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.list_card_educationalprog{
+    list-style-type: none;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.item_card_educationalprog i{
+    margin-right: 7px;
+}
+
+.item_card_educationalprog{
+    font-weight: 400;
+    font-size: 11px;
+}
+
+.fa-bolt{
+    color: #FBC600;
+}
+.fa-microscope{
+   color: #5CA241;
+}
+
+.fa-arrow-trend-up{
+    color: #0136B5;
+}
+
+.title_educ span{
+    position: relative;
+    z-index: 0;
+}
+.title_educ span::before{
+   content: url('../img/underline_title_programs.svg');
+   position: absolute;
+   left: -1px;
+   bottom: -20px;
+   z-index: -1;
+}
