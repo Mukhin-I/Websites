@@ -6,4 +6,3 @@
 ![main](./screenshots/as2.png)
 ![main](./screenshots/as3.png)
 ![main](./screenshots/as4.png)
-![main](./screenshots/as5.png)
