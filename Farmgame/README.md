@@ -1,3 +1,5 @@
+Один из первых проектов, небольшой лендинг
+
 ## Screenshots
 
 ![Main page](./screenshots/fg1.png)
