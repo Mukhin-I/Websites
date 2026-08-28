@@ -1,4 +1,12 @@
-Лэндинг, который сверстал на уроке по веб-разработке
+## Freedom Academy
+Лэндинг для школы кино и телевидения.
+
+## Tech Stack
+* HTML5
+* CSS3
+* SCSS
+* Figma
+* Responsive design
 
 ## Screenshots
 
