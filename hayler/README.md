@@ -1,4 +1,11 @@
-pet-project, сайт онлайн-ритейла одежды
+## Hayler
+Hayler - сайт онлайн-ритейла одежды.
+
+## Tech Stack
+* HTML5
+* CSS3
+* SCSS
+* Figma
 
 ## Screenshots
 
