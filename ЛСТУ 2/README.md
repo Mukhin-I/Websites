@@ -1,6 +1,9 @@
 ## Сайт ЛСТУ №2
 Школьная выпускная проектная работа. Сайт Лицея №2. 
 
+## Live Demo
+https://shimmering-malasada-869ed6.netlify.app/
+
 ## Tech Stack
 * HTML5
 * CSS3
