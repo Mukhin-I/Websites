@@ -1,4 +1,11 @@
-Прототип сайта маркетплейса
+## Gift.ru
+Прототип сайта маркетплейса.
+
+## Tech Stack
+* HTML5
+* CSS3
+* SCSS
+* Figma
 
 ## Screenshots
 
