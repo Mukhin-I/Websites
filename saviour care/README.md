@@ -1,4 +1,11 @@
+## Saviour Care
 pet-project, Saviour care - сайт для виртуальных медицинских консультаций
+
+## Tech Stack
+* HTML5
+* CSS3
+* SCSS
+* Figma
 
 ## Screenshots
 
