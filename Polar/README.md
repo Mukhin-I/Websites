@@ -1,4 +1,11 @@
+## Polar
 Сайт магазина мороженого, pet-project
+
+## Tech Stack
+* HTML5
+* CSS3
+* SCSS
+* Figma
 
 ## Screenshots
 
