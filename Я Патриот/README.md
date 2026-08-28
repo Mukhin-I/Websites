@@ -1,6 +1,9 @@
 ## Я Патриот
 Я Патриот - Конкурсная работа к 9 мая, сайт посвященный памятным военным событиям и датам.
 
+## Live Demo
+https://beamish-duckanoo-67c3b9.netlify.app/
+
 ## Tech Stack
 * HTML5
 * CSS3
