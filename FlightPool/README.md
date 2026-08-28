@@ -1,5 +1,13 @@
 ## FlightPool
-Прототип сайта авиакомпании, pet-project
+Адаптивынй прототип сайта авиакомпании FlightPool, pet-project
+
+## Tech Stack
+* HTML5
+* CSS3
+* SCSS
+* Figma
+* JavaScript
+* Адаптивная верстка
 
 ## Screenshots
 
